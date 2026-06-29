@@ -31,7 +31,7 @@ RUN echo 'cll    ALL=(ALL)    NOPASSWD: ALL' >>/etc/sudoers.d/cll
 
 # Ruby setup
 COPY Gemfile Gemfile.lock /srv/cll/
-RUN gem install bundler
+RUN gem install bundler -v 2.4.22
 RUN bundle config --global silence_root_warning true 
 RUN bundle config build.nokogiri --use-system-libraries
 RUN bundle install
