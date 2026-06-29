@@ -8,7 +8,7 @@
 CONTAINER_BIN=${CONTAINER_BIN:-$(which podman 2>/dev/null)}
 CONTAINER_BIN=${CONTAINER_BIN:-$(which docker 2>/dev/null)}
 
-if $CONTAINER_BIN info >/dev/null 2>&1
+if "$CONTAINER_BIN" info >/dev/null 2>&1
 then
   # Everything is working; no-op
   CONTAINER_BIN="$CONTAINER_BIN"
@@ -46,7 +46,7 @@ dir=$(readlink -f $(dirname $0))
 # $CONTAINER_BIN rmi lojban/cll_build
 echo "Running container image build; this may take a while."
 echo
-$CONTAINER_BIN build -t lojban/cll_build -f Dockerfile . >/tmp/rc.$$ 2>&1 || {
+"$CONTAINER_BIN" build -t lojban/cll_build -f Dockerfile . >/tmp/rc.$$ 2>&1 || {
   echo "Container image build failed.  Here's the output: "
   echo
   cat /tmp/rc.$$
@@ -61,6 +61,6 @@ $CONTAINER_BIN build -t lojban/cll_build -f Dockerfile . >/tmp/rc.$$ 2>&1 || {
 
 rm -f /tmp/rc.$$
 
-$CONTAINER_BIN run --name cll_build \
-  --userns=keep-id -v $dir:/srv/cll "${extra_vols[@]}" -it lojban/cll_build \
+"$CONTAINER_BIN" run --name cll_build \
+  -v $dir:/srv/cll "${extra_vols[@]}" -it lojban/cll_build \
   /bin/bash -c "cd /srv/cll ; ./cll_build ${args[*]}"
