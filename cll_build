@@ -77,13 +77,14 @@ shell="no"
 optlist=""
 run_chapters=""
 coverage=""
+myText=""
 update_jbovlaste=""
 builddir="build"
 target="all"
 diff='maybe'
 vimdiff=""
 
-while getopts "jndcC:a:A:sSthVT:" opt
+while getopts "jndcC:a:A:sSthVT:v" opt
 do
   case "$opt" in
     c)    coverage="true"
@@ -103,6 +104,9 @@ do
     S)    shell='yes';;
     V)    vimdiff='-V';;
     j)    update_jbovlaste='yes';;
+    v)    myText="true"
+          run_chapters="true"
+          ;;
     [?h]) usage;;
   esac
 done
@@ -162,6 +166,22 @@ then
   builddir="coverage/build"
   archivedir=""
 fi
+
+if [ "$myText" ]
+then
+  target="myText"
+  test=""
+  chapters="myText/myText.xml"
+  builddir="myText/build"
+  archivedir=""
+fi
+
+if [ "$target" = "all" ]
+then
+  echo "no"
+  exit 1
+fi
+
 
 echo "chapters: $chapters"
 echo "optlist: $optlist"

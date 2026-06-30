@@ -11,6 +11,10 @@ all: xhtml_chapters xhtml_sections xhtml_nochunks pdf epub mobi
 clean:
 	find $(PWD)/build/ $(PWD)/coverage/build/ $(builddir)/ \! -name 'jbovlaste*.xml' -type f | xargs -n 1 rm -f
 
+.PHONY: cleanMyText
+cleanMyText:
+	find $(PWD)/build/ $(PWD)/myText/build/ $(builddir)/ \! -name 'jbovlaste*.xml' -type f | xargs -n 1 rm -f
+
 .PHONY: realclean
 realclean: clean
 	find $(PWD)/build/ $(PWD)/coverage/build/ $(builddir)/ -type f | xargs -n 1 rm -f
@@ -130,6 +134,19 @@ $(builddir)/epub-xhtml/index.html: $(builddir)/cll_processed_xhtml.xml xml/docbo
 # Testing
 #*******
 coverage: clean xhtml_nochunks pdf
+ifneq ($(covcopydir),)
+	mkdir -p $(covcopydir)
+	cp $(builddir)/cll.pdf $(covcopydir)/cll.pdf
+	rm -rf $(covcopydir)/cll-xhtml_no_chunks
+	cp -pr $(builddir)/xhtml_no_chunks $(covcopydir)/cll-xhtml_no_chunks
+	# The appcache is supremely unhelpful when testing
+	find $(covcopydir) -name cll.appcache | xargs rm
+endif
+
+#*******
+# myText
+#*******
+myText: cleanMyText xhtml_nochunks pdf
 ifneq ($(covcopydir),)
 	mkdir -p $(covcopydir)
 	cp $(builddir)/cll.pdf $(covcopydir)/cll.pdf
