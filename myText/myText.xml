@@ -4,9 +4,6 @@
     <para>
       Lojban é uma língua que decidi aprender para me introduzir ao mundo das conlangs. 
     </para>
-    <para> 
-      Vamos considerar a seguinte frase:
-    </para>
     <para>
       Em Lojban, as orações são conhecidas como <valsi>bridi</valsi> que constitue o predicado e seus argumentos. O predicado, que cria uma relação entre os argumentos, e chamado em Lojban de <valsi>selbri</valsi>. Os argumentos, que são objetos, entidades ou conceitos, que se relacionam entre si, são chamados em Lojban de <valsi>sumti</valsi>. Na seguinte frase:
     </para>
@@ -55,7 +52,7 @@
       <valsi>cu</valsi> é importante aqui, ela impõe que a <valsi>brivla</valsi> a seguir tem que ser um <valsi>selbri</valsi>, pois dois <valsi>brivla</valsi> seguidos formam uma nova semântica, conhecida em Lojban como <valsi>tanru</valsi>, a palavra a esquerda modifica a direita. Por exemplo:
       <example role="nterlinear-gloss-example" xml:id="example-4">
         <title>
-          <anchor xml:id="c1e3"/>
+          <anchor xml:id="c1e4"/>
         </title>
         <interlinear-gloss>
           <jbo>le lorxu cu dajne citka le nanba</jbo>
