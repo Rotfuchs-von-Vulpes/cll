@@ -1,33 +1,71 @@
-<chapter xml:id="chapter-tour">
-  <title>Introdução</title>
+<chapter xml:id="chapter-intro">
+  <title><anchor xml:id="c1"/>Introdução</title>
   <section xml:id="section-bridi">
-    <title>The concept of the bridi</title>
-    <para> <indexterm type="general"><primary>bridi</primary><secondary>concept of</secondary></indexterm> This chapter gives diagrammed examples of basic Lojban sentence structures. The most general pattern is covered first, followed by successive variations on the basic components of the Lojban sentence. There are many more capabilities not covered in this chapter, but covered in detail in later chapters, so this chapter is a 
-      <quote>quick tour</quote> of the material later covered more slowly throughout the book. It also introduces most of the Lojban words used to discuss Lojban grammar.</para>
-    <para> 
-
-
-      Let us consider John and Sam and three statements about them:</para>
-
-    <example xml:id="example-random-id-qIuj">
-      <title> 
-        <indexterm type="example"><primary>father</primary></indexterm>
-        <indexterm type="example"><primary>John and Sam</primary></indexterm>
-
-        <anchor xml:id="c2e1d1"/>
-      </title>
-      <para>John is the father of Sam.</para>
-    </example>
-    <para> <indexterm type="general"><primary>sumti</primary><secondary>relation with bridi</secondary></indexterm>  <indexterm type="general"><primary>brivla</primary><secondary>relation to bridi</secondary></indexterm>  <indexterm type="general"><primary>predication</primary><secondary>compared with bridi</secondary></indexterm>  <indexterm type="general"><primary>bridi</primary><secondary>compared with predication</secondary></indexterm>  <indexterm type="general"><primary>predication</primary><secondary>as a relationship</secondary></indexterm>  <indexterm type="general"><primary>relationship</primary><secondary>active/static/attributive compared</secondary></indexterm> These examples all describe relationships between John and Sam. However, in English, we use the noun 
-
-      <quote>father</quote> to describe a static relationship in 
-      <xref linkend="example-random-id-qIuj"/>, the verb 
-      <quote>hits</quote> to describe an active relationship in 
-      In formal logic this whole structure is called a
-      <quote>predication</quote>; in Lojban it is called a
-      <valsi>bridi</valsi>, and the central part of speech is the
-      <valsi>selbri</valsi>. 
+    <para>
+      Lojban é uma língua que decidi aprender para me introduzir ao mundo das conlangs. 
     </para>
-
+    <para> 
+      Vamos considerar a seguinte frase:
+    </para>
+    <para>
+      Em Lojban, as orações são conhecidas como <valsi>bridi</valsi> que constitue o predicado e seus argumentos. O predicado, que cria uma relação entre os argumentos, e chamado em Lojban de <valsi>selbri</valsi>. Os argumentos, que são objetos, entidades ou conceitos, que se relacionam entre si, são chamados em Lojban de <valsi>sumti</valsi>. Na seguinte frase:
+    </para>
+    <example role="interlinear-gloss-example" xml:id="example-1">
+      <title>
+        <anchor xml:id="c1e1"/>
+      </title>
+      <interlinear-gloss>
+        <jbo>mi gleki tu'a lei lorxu</jbo>
+        <gloss>Eu gosto de PLURAL raposas</gloss>
+        <natlang>Eu gosto de raposas.</natlang>
+      </interlinear-gloss>
+    </example>
+    <para>
+      Temos um <valsi>selbri</valsi> e dois <valsi>sumti</valsi>. O primeiro argumento é <valsi>mi</valsi>, significando <quote>eu</quote>, a pessoa que fala. e o segundo argumento são eventos que podem ocorrer com raposas, não está especificado a natureza desses eventos, mas é possível saber que pelo <valsi>selbri</valsi>, <valsi>gleki</valsi> que significa que o primeiro argumento, esta ou fica feliz quanto o segundo argumento, que tem que ser um evento ou estado, acontece.
+    </para>
+    <para>
+      Tal evento, não é especificado, informado pelo <valsi>tu'a</valsi>, ele transforma uma oração em um evento na forma de um argumento <valsi>sumti</valsi>, podendo assim entrar no papel dentro do predicado. <quote>lei lorxu</quote> é o predicado que compõe o evento, <valsi>lorxu</valsi> é o <valsi>selbri</valsi> que significa uma relação de algo ser uma raposa. <valsi>lei</valsi> é uma partícula que transforma um <valsi>selbri</valsi> em um <valsi>sumti</valsi>, <valsi>lei</valsi> quer dizer um conjunto de coisas que podem ser descritas pelo <valsi>selbri</valsi>. <valsi>lorxu</valsi> é a apalavra em Lojban para raposa, então <quote>tu'a lei lorxu</quote> descreve eventos ou estados que acontecem com raposas, como ver uma foto de uma raposa, amassar uma pelúcia de raposa, ou ver vídeos sobre raposas, não está excluído representações de raposas como personagens, imagens e itens.
+    </para> 
+    <para>Tome o exemplo:
+      <example role="interlinear-gloss-example" xml:id="example-2">
+        <title>
+          <anchor xml:id="c1e2"/>
+        </title>
+        <interlinear-gloss>
+          <jbo>ti lorxu</jbo>
+          <gloss>isso é-uma-raposa</gloss>
+          <natlang>Isso é uma raposa.</natlang>
+        </interlinear-gloss>
+      </example>
+    </para>
+    <para>
+      <valsi>ti</valsi> significa <quote>isso</quote>, fazendo o primeiro papel de um predicado, que é <quote>ser uma raposa</quote>, isto é, independentemente da coisa que me refiro, estou dizendo que é uma raposa. Posso me referir a esta coisa como argumento de outro predicado com um <valsi>le</valsi>, formando <quote>le lorxu</quote>. Posso dizer que uma raposa comeu meu pão dizendo:
+      <example role="nterlinear-gloss-example" xml:id="example-3">
+        <title>
+          <anchor xml:id="c1e3"/>
+        </title>
+        <interlinear-gloss>
+          <jbo>le lorxu cu citka le nanba</jbo>
+          <gloss>a raposa - come o pão</gloss>
+          <natlang>A raposa come o pão.</natlang>
+        </interlinear-gloss>
+      </example>
+    </para>
+    <para>
+      <valsi>cu</valsi> é importante aqui, ela impõe que a <valsi>brivla</valsi> a seguir tem que ser um <valsi>selbri</valsi>, pois dois <valsi>brivla</valsi> seguidos formam uma nova semântica, conhecida em Lojban como <valsi>tanru</valsi>, a palavra a esquerda modifica a direita. Por exemplo:
+      <example role="nterlinear-gloss-example" xml:id="example-4">
+        <title>
+          <anchor xml:id="c1e3"/>
+        </title>
+        <interlinear-gloss>
+          <jbo>le lorxu cu dajne citka le nanba</jbo>
+          <gloss>a raposa - cuidadosamente come o pão</gloss>
+          <natlang>A raposa comeu o pão cuidadosamente.</natlang>
+        </interlinear-gloss>
+      </example>
+    </para>
+    <para>
+      O <valsi>tanru</valsi> <quote>dajne citka</quote> possui <valsi>dajne</valsi>, <quote>cuidado</quote>, modificando <valsi>citka</valsi>, <quote>comer</quote>. 
+    </para>
   </section>
 </chapter>
