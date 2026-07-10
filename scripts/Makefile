@@ -146,7 +146,7 @@ endif
 #*******
 # myText
 #*******
-myText: cleanMyText xhtml_nochunks pdf
+myText: cleanMyText xhtml_nochunks xhtml_sections pdf
 ifneq ($(covcopydir),)
 	mkdir -p $(covcopydir)
 	cp $(builddir)/cll.pdf $(covcopydir)/cll.pdf
