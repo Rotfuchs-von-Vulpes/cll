@@ -1,6 +1,7 @@
 <chapter xml:id="chapter-intro">
   <title><anchor xml:id="c1"/>Introdução</title>
   <section xml:id="section-bridi">
+    <title><anchor xml:id="c1s1"/>Exemplos Rápidos</title>
     <para>
       Lojban é uma língua que decidi aprender para me introduzir ao mundo das conlangs. 
     </para>
@@ -62,7 +63,22 @@
       </example>
     </para>
     <para>
-      O <valsi>tanru</valsi> <quote>dajne citka</quote> possui <valsi>dajne</valsi>, <quote>cuidado</quote>, modificando <valsi>citka</valsi>, <quote>comer</quote>. 
+      O <valsi>tanru</valsi> <quote>dajne citka</quote> possui <valsi>dajne</valsi>, <quote>cuidado</quote>, modificando <valsi>citka</valsi>, <quote>comer</quote>. Sendo assim, é uma forma de dizer comer com cuidado.
+    </para>
+  </section>
+  <section>
+    <title><anchor xml:id="c1s2"/>Pronuncia</title>
+    <para>
+      Lojban usa somente 6 vogais escritas como <quote>a</quote>, <quote>e</quote>, <quote>i</quote>, <quote>o</quote>, <quote>u</quote> e <quote>y</quote>. <quote>a</quote> como em <quote>gato</quote>, <quote>e</quote> como em <quote>telha</quote>, <quote>i</quote> como em <quote>igreja</quote>, <quote>o</quote> como em <quote>fome</quote>, <quote>u</quote> como em <quote>união</quote>, e por fim, <quote>y</quote> possui um som inexistente no português, mas que existe em inglês, <quote>a</quote> como em <quote>about</quote>.
+    </para>
+    <para>
+      As consoantes em Lojban <quote>b</quote>, <quote>d</quote>, <quote>f</quote>, <quote>j</quote>, <quote>k</quote>, <quote>l</quote>, <quote>m</quote>, <quote>n</quote>, <quote>p</quote>, <quote>t</quote>, <quote>v</quote> e <quote>z</quote>, possuem o mesmo som em português. Porem, existem consoantes que tem pronuncia constante, <quote>c</quote> como em <quote>chá</quote>, <quote>g</quote> como em <quote>gás</quote>, <quote>r</quote> como em <quote>cara</quote>, <quote>s</quote> como em <quote>sapato</quote>. <quote>x</quote> possui um som inexistente no português e no inglês, é como o <quote>ch</quote> em <quote>loch</quote> no escocês ou <quote>bach</quote> no alemão, ou <quote>j</quote> em <quote>junta</quote> no espanhol.
+    </para>
+    <para>
+      Lojban possui 3 semi-letras, <quote>.</quote> é uma oclusiva glotal, <quote>,</quote> apenas denota as sílabas e não muda como a palavra é pronunciada. <quote>h</quote> possui o som de <quote>rr</quote> como em <quote>carro</quote>
+    </para>
+    <para>
+      A sílaba tônica é sempre a penúltima sílaba, exceto quando a vogal é <quote>y</quote>, que nunca é tônica, nesse caso a tônica é a antepenúltima sílaba. Palavras com uma única sílaba não é tônica.
     </para>
   </section>
 </chapter>
