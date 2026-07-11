@@ -1,6 +1,6 @@
 <chapter xml:id="chapter-intro">
   <title><anchor xml:id="c1"/>Introdução</title>
-  <section xml:id="section-bridi">
+  <section xml:id="section-examples">
     <title><anchor xml:id="c1s1"/>Exemplos Rápidos</title>
     <para>
       Lojban é uma língua que decidi aprender para me introduzir ao mundo das conlangs. 
@@ -10,6 +10,7 @@
     </para>
     <example role="interlinear-gloss-example" xml:id="example-1">
       <title>
+        <indexterm type="example"><primary>gleki</primary></indexterm>
         <anchor xml:id="c1e1"/>
       </title>
       <interlinear-gloss>
@@ -27,6 +28,7 @@
     <para>Tome o exemplo:
       <example role="interlinear-gloss-example" xml:id="example-2">
         <title>
+          <indexterm type="example"><primary>lorxu</primary></indexterm>
           <anchor xml:id="c1e2"/>
         </title>
         <interlinear-gloss>
@@ -40,6 +42,7 @@
       <valsi>ti</valsi> significa <quote>isso</quote>, fazendo o primeiro papel de um predicado, que é <quote>ser uma raposa</quote>, isto é, independentemente da coisa que me refiro, estou dizendo que é uma raposa. Posso me referir a esta coisa como argumento de outro predicado com um <valsi>le</valsi>, formando <quote>le lorxu</quote>. Posso dizer que uma raposa comeu meu pão dizendo:
       <example role="nterlinear-gloss-example" xml:id="example-3">
         <title>
+          <indexterm type="example"><primary>nanba</primary></indexterm>
           <anchor xml:id="c1e3"/>
         </title>
         <interlinear-gloss>
@@ -53,6 +56,7 @@
       <valsi>cu</valsi> é importante aqui, ela impõe que a <valsi>brivla</valsi> a seguir tem que ser um <valsi>selbri</valsi>, pois dois <valsi>brivla</valsi> seguidos formam uma nova semântica, conhecida em Lojban como <valsi>tanru</valsi>, a palavra a esquerda modifica a direita. Por exemplo:
       <example role="nterlinear-gloss-example" xml:id="example-4">
         <title>
+          <indexterm type="example"><primary>dajne citka</primary></indexterm>
           <anchor xml:id="c1e4"/>
         </title>
         <interlinear-gloss>
@@ -66,8 +70,78 @@
       O <valsi>tanru</valsi> <quote>dajne citka</quote> possui <valsi>dajne</valsi>, <quote>cuidado</quote>, modificando <valsi>citka</valsi>, <quote>comer</quote>. Sendo assim, é uma forma de dizer comer com cuidado.
     </para>
   </section>
-  <section>
-    <title><anchor xml:id="c1s2"/>Pronuncia</title>
+  <section xml:id="section-bridi">
+    <title><anchor xml:id="c1s2"/>O Conceito de bridi</title>
+    <para>
+      Vamos considerar Pedro e Breno nos exemplos a seguir:
+    </para>
+    <example xml:id="example-5-1">
+      <title>
+        <indexterm type="example"><primary>pai</primary></indexterm>
+        <indexterm type="example"><primary>Pedro e Breno</primary></indexterm>
+        <anchor xml:id="c1e5d1"/>
+      </title>
+      <para>Pedro é pai de Breno</para>
+    </example>
+    <example xml:id="example-5-2">
+      <title>
+        <indexterm type="example"><primary>brinca</primary></indexterm>
+        <indexterm type="example"><primary>Pedro e Breno</primary></indexterm>
+        <anchor xml:id="c1e5d2"/>
+      </title>
+      <para>Pedro brinca com Breno</para>
+    </example>
+    <example xml:id="example-5-3">
+      <title>
+        <indexterm type="example"><primary>velho</primary></indexterm>
+        <indexterm type="example"><primary>Pedro e Breno</primary></indexterm>
+        <anchor xml:id="c1e5d3"/>
+      </title>
+      <para>Pedro é mais velho que Breno</para>
+    </example>
+    <para>
+      Todos esses exemplos descrevem relações entre Breno e Pedro. Porém, o exemplo <xref linkend="example-5-1"/> descreve uma relação estática entre Pedro e Breno, o exemplo <xref linkend="example-5-2"/> uma relação ativa e o exemplo <xref linkend="example-5-3"/> uma relação atributiva. Lojban não diferencia tipos de relação, esses 3 exemplos são estruturalmente idênticos em Lojban. Cada relação em Lojban é chamada de <valsi>bridi</valsi>, a parte central da relação se chama <valsi>selbri</valsi>, e as entidades que se relacionam é chamado de <valsi>sumti</valsi>.
+    </para>
+    <para>
+      Em uma relação, existe um número fixo de coisas e posições corretas para essas coisas. Na frase: 
+    </para>
+    <example xml:id="example-6">
+      <title>
+        <indexterm type="example"><primary>consertar</primary></indexterm>
+        <indexterm type="example"><primary>carro</primary></indexterm>
+        <anchor xml:id="c1e6"/>
+      </title>
+      <para>Pedro conserta o carro de Breno</para>
+    </example>
+    <para>Descreve uma relação, porém:</para>
+    <example xml:id="example-7">
+      <title>
+        <indexterm type="example"><primary>consertar</primary></indexterm>
+        <indexterm type="example"><primary>carro</primary></indexterm>
+        <anchor xml:id="c1e7"/>
+      </title>
+      <para>Breno conserta o carro de Pedro</para>
+    </example>
+    <para>
+      Descreve outra relação. E ainda:
+    </para>
+    <example xml:id="example-8">
+      <title>
+        <indexterm type="example"><primary>consertar</primary></indexterm>
+        <indexterm type="example"><primary>carro</primary></indexterm>
+        <anchor xml:id="c1e8"/>
+      </title>
+      <para>Carro conserta o Breno de Pedro</para>
+    </example>
+    <para>
+      Soa muito estranho e provavelmente errado. E a relação <quote>consertar</quote> não mudou.
+    </para>
+    <para>
+      Em Lojban cada <valsi>selbri</valsi> possui consensualmente um número fixo de argumentos e uma função fixa para cada posição da relação. A classe mais simples de <valsi>selbri</valsi> que pode ser usada é um único <valsi>gismu</valsi>, palavras com 5 letras e duas sílabas, possuem uma definição no dicionário com o papel de cada argumento na relação. Uma sentença em Lojban é escolher um <valsi>selbri</valsi> e preencher cada argumento com o <valsi>sumti</valsi> correto.
+    </para>
+  </section>
+  <section xml:id="section-pronunciation">
+    <title><anchor xml:id="c1s3"/>Pronuncia</title>
     <para>
       Lojban usa somente 6 vogais escritas como <quote>a</quote>, <quote>e</quote>, <quote>i</quote>, <quote>o</quote>, <quote>u</quote> e <quote>y</quote>. <quote>a</quote> como em <quote>gato</quote>, <quote>e</quote> como em <quote>telha</quote>, <quote>i</quote> como em <quote>igreja</quote>, <quote>o</quote> como em <quote>fome</quote>, <quote>u</quote> como em <quote>união</quote>, e por fim, <quote>y</quote> possui um som inexistente no português, mas que existe em inglês, <quote>a</quote> como em <quote>about</quote>.
     </para>
@@ -75,7 +149,7 @@
       As consoantes em Lojban <quote>b</quote>, <quote>d</quote>, <quote>f</quote>, <quote>j</quote>, <quote>k</quote>, <quote>l</quote>, <quote>m</quote>, <quote>n</quote>, <quote>p</quote>, <quote>t</quote>, <quote>v</quote> e <quote>z</quote>, possuem o mesmo som em português. Porem, existem consoantes que tem pronuncia constante, <quote>c</quote> como em <quote>chá</quote>, <quote>g</quote> como em <quote>gás</quote>, <quote>r</quote> como em <quote>cara</quote>, <quote>s</quote> como em <quote>sapato</quote>. <quote>x</quote> possui um som inexistente no português e no inglês, é como o <quote>ch</quote> em <quote>loch</quote> no escocês ou <quote>bach</quote> no alemão, ou <quote>j</quote> em <quote>junta</quote> no espanhol.
     </para>
     <para>
-      Lojban possui 3 semi-letras, <quote>.</quote> é uma oclusiva glotal, <quote>,</quote> apenas denota as sílabas e não muda como a palavra é pronunciada. <quote>'</quote> possui o som de <quote>rr</quote> como em <quote>carro</quote>
+      Lojban possui 3 semi-letras, <quote>.</quote> é uma oclusiva glotal, <quote>,</quote> apenas denota as sílabas e não muda como a palavra é pronunciada. <quote>'</quote> possui o som de <quote>rr</quote> como em <quote>carro</quote>.
     </para>
     <para>
       A sílaba tônica é sempre a penúltima sílaba, exceto quando a vogal é <quote>y</quote>, que nunca é tônica, nesse caso a tônica é a antepenúltima sílaba. Palavras com uma única sílaba não é tônica.
