@@ -139,20 +139,298 @@
     <para>
       Em Lojban cada <valsi>selbri</valsi> possui consensualmente um número fixo de argumentos e uma função fixa para cada posição da relação. A classe mais simples de <valsi>selbri</valsi> que pode ser usada é um único <valsi>gismu</valsi>, palavras com 5 letras e duas sílabas, possuem uma definição no dicionário com o papel de cada argumento na relação. Uma sentença em Lojban é escolher um <valsi>selbri</valsi> e preencher cada argumento com o <valsi>sumti</valsi> correto.
     </para>
+    <para>
+      Um Logicista chamaria <valsi>bridi</valsi> de uma predicação, e cada <valsi>sumti</valsi> de argumento. Observe que linguisticamente Lojban não faz uma distinção gramatical de objeto e sujeito.
+    </para>
   </section>
   <section xml:id="section-pronunciation">
     <title><anchor xml:id="c1s3"/>Pronuncia</title>
     <para>
-      Lojban usa somente 6 vogais escritas como <quote>a</quote>, <quote>e</quote>, <quote>i</quote>, <quote>o</quote>, <quote>u</quote> e <quote>y</quote>. <quote>a</quote> como em <quote>gato</quote>, <quote>e</quote> como em <quote>telha</quote>, <quote>i</quote> como em <quote>igreja</quote>, <quote>o</quote> como em <quote>fome</quote>, <quote>u</quote> como em <quote>união</quote>, e por fim, <quote>y</quote> possui um som inexistente no português, mas que existe em inglês, <quote>a</quote> como em <quote>about</quote>.
+      Lojban usa somente 6 vogais escritas como <letteral>a</letteral>, <letteral>e</letteral>, <letteral>i</letteral>, <letteral>o</letteral>, <letteral>u</letteral> e <letteral>y</letteral>. <letteral>a</letteral> como em <quote>gato</quote>, <letteral>e</letteral> como em <quote>telha</quote>, <letteral>i</letteral> como em <quote>igreja</quote>, <letteral>o</letteral> como em <quote>fome</quote>, <letteral>u</letteral> como em <quote>união</quote>, e por fim, <letteral>y</letteral> possui um som inexistente no português, mas que existe em inglês, <letteral>a</letteral> como em <quote xml:lang="en">about</quote>.
     </para>
     <para>
-      As consoantes em Lojban <quote>b</quote>, <quote>d</quote>, <quote>f</quote>, <quote>j</quote>, <quote>k</quote>, <quote>l</quote>, <quote>m</quote>, <quote>n</quote>, <quote>p</quote>, <quote>t</quote>, <quote>v</quote> e <quote>z</quote>, possuem o mesmo som em português. Porem, existem consoantes que tem pronuncia constante, <quote>c</quote> como em <quote>chá</quote>, <quote>g</quote> como em <quote>gás</quote>, <quote>r</quote> como em <quote>cara</quote>, <quote>s</quote> como em <quote>sapato</quote>. <quote>x</quote> possui um som inexistente no português e no inglês, é como o <quote>ch</quote> em <quote>loch</quote> no escocês ou <quote>bach</quote> no alemão, ou <quote>j</quote> em <quote>junta</quote> no espanhol.
+      As consoantes em Lojban <letteral>b</letteral>, <letteral>d</letteral>, <letteral>f</letteral>, <letteral>j</letteral>, <letteral>k</letteral>, <letteral>l</letteral>, <letteral>m</letteral>, <letteral>n</letteral>, <letteral>p</letteral>, <letteral>t</letteral>, <letteral>v</letteral> e <letteral>z</letteral>, possuem o mesmo som em português. Porem, existem consoantes que tem pronuncia constante, <letteral>c</letteral> como em <quote>chá</quote>, <letteral>g</letteral> como em <quote>gás</quote>, <letteral>r</letteral> como em <quote>cara</quote>, <letteral>s</letteral> como em <quote>sapato</quote>. <letteral>x</letteral> possui um som inexistente no português e no inglês, é como o <quote>ch</quote> em <quote xml:lang="sco">loch</quote> no escocês ou <quote xml:lang="de">bach</quote> no alemão, ou <letteral>j</letteral> em <quote xml:lang="es">junta</quote> no espanhol.
     </para>
     <para>
-      Lojban possui 3 semi-letras, <quote>.</quote> é uma oclusiva glotal, <quote>,</quote> apenas denota as sílabas e não muda como a palavra é pronunciada. <quote>'</quote> possui o som de <quote>rr</quote> como em <quote>carro</quote>.
+      Lojban possui 3 semi-letras, o ponto final é uma oclusiva glotal, a vírgula apenas denota as sílabas e não muda como a palavra é pronunciada. E o apostrofo possui o som de <quote>rr</quote> como em <quote>carro</quote>.
     </para>
     <para>
       A sílaba tônica é sempre a penúltima sílaba, exceto quando a vogal é <quote>y</quote>, que nunca é tônica, nesse caso a tônica é a antepenúltima sílaba. Palavras com uma única sílaba não é tônica.
+    </para>
+  </section>
+  <section xml:id="section-some-sumti">
+    <title><anchor xml:id="c2s4"/>Pronomes</title>
+    <para>
+      Aqui está uma lista de palavras de pronomes em Lojban, conhecidas em Lojban como pró-sumti.
+    </para>
+    <cmavo-list>
+      <cmavo-entry>
+        <cmavo>mi</cmavo>
+        <description>eu</description>
+      </cmavo-entry>
+      <cmavo-entry>
+        <cmavo>mi'o</cmavo>
+        <description>eu e você</description>
+      </cmavo-entry>
+      <cmavo-entry>
+        <cmavo>mi'a</cmavo>
+        <description>eu e outros, mas não você</description>
+      </cmavo-entry>
+      <cmavo-entry>
+        <cmavo>ma'a</cmavo>
+        <description>eu você e outros</description>
+      </cmavo-entry>
+      <cmavo-entry>
+        <cmavo>do</cmavo>
+        <description>você, tu</description>
+      </cmavo-entry>
+      <cmavo-entry>
+        <cmavo>do'o</cmavo>
+        <description>vocês</description>
+      </cmavo-entry>
+      <cmavo-entry>
+        <cmavo>ko</cmavo>
+        <description>você (imperativo)</description>
+      </cmavo-entry>
+      <cmavo-entry>
+        <cmavo>ti</cmavo>
+        <description>isto, aqui</description>
+      </cmavo-entry>
+      <cmavo-entry>
+        <cmavo>ta</cmavo>
+        <description>isso, aí</description>
+      </cmavo-entry>
+      <cmavo-entry>
+        <cmavo>tu</cmavo>
+        <description>aquilo, lá</description>
+      </cmavo-entry>
+      <cmavo-entry>
+        <cmavo>zo'e</cmavo>
+        <description>indefinido, quando é óbvio ou não é importante</description>
+      </cmavo-entry>
+      <cmavo-entry>
+        <cmavo>zo'i</cmavo>
+        <description>típico ou comum</description>
+      </cmavo-entry>
+      <cmavo-entry>
+        <cmavo>ri</cmavo>
+        <description>repete o último sumti</description>
+      </cmavo-entry>
+      <cmavo-entry>
+        <cmavo>ra</cmavo>
+        <description>repete o próximo sumti</description>
+      </cmavo-entry>
+      <cmavo-entry>
+        <cmavo>da</cmavo>
+        <description>alguma coisa (1)</description>
+      </cmavo-entry>
+      <cmavo-entry>
+        <cmavo>de</cmavo>
+        <description>alguma coisa (2)</description>
+      </cmavo-entry>
+      <cmavo-entry>
+        <cmavo>di</cmavo>
+        <description>alguma coisa (3)</description>
+      </cmavo-entry>
+    </cmavo-list>
+  </section>
+  <section xml:id="section-some-selbri">
+    <title><anchor xml:id="c2s5"/>Predicados</title>
+    <para>
+      Algumas palavras usadas para indicar predicados.
+    </para>
+    <para role="allowbreaks"/>
+    <informaltable class="vertsep">
+      <tr>
+        <td><valsi>vecnu</valsi></td>
+        <td>x1 (vendedor) vende x2 (produto) para x3 (comprador) por x4 (preço)</td>
+      </tr>
+      <tr>
+        <td><valsi>tavla</valsi></td>
+        <td>x1 (falante) diz para x2 (audiência) sobre x3 (tópico) na linguagem x4</td>
+      </tr>
+      <tr>
+        <td><valsi>sutra</valsi></td>
+        <td>x1 (agente) é rápido fazendo x2 (ação)</td>
+      </tr>
+      <tr>
+        <td><valsi>blari'o</valsi></td>
+        <td>x1 (objeto/luz) é azul esverdeado</td>
+      </tr>
+      <tr>
+        <td><valsi>melbi</valsi></td>
+        <td>x1 (objeto/ideia) é bonita para x2 (observador) no padrão x3</td>
+      </tr>
+      <tr>
+        <td><valsi>cutci</valsi></td>
+        <td>x1 é um sapato para x2 (pé) feito de x3 (material)</td>
+      </tr>
+      <tr>
+        <td><valsi>bajra</valsi></td>
+        <td>x1 corre/anda sobre x2 (superfície) usando x3 (braços) na maneira x4 (marcha)</td>
+      </tr>
+      <tr>
+        <td><valsi>klama</valsi></td>
+        <td>x1 vai/vem to x2 (destino) de x3 (origem) via x4 (rota) usando x5 (transporte)</td>
+      </tr>
+      <tr>
+        <td><valsi>pluka</valsi></td>
+        <td>x1 é prazeroso para x2 (agente) nas condições x3</td>
+      </tr>
+      <tr>
+        <td><valsi>lorxu</valsi></td>
+        <td>x1 é uma raposa da espécie x2</td>
+      </tr>
+      <tr>
+        <td><valsi>kurji</valsi></td>
+        <td>x1 cuida de x2</td>
+      </tr>
+      <tr>
+        <td><valsi>kanro</valsi></td>
+        <td>x1 é saudável para x2</td>
+      </tr>
+      <tr>
+        <td><valsi>stali</valsi></td>
+        <td>x1 fica com x2</td>
+      </tr>
+      <tr>
+        <td><valsi>zarci</valsi></td>
+        <td>x1 é uma loja/mercado vendendo x2 (produtos) operado por x3 (dono)</td>
+      </tr>
+    </informaltable>
+    <para>
+      Cada predicado atribui um papel para cada argumento na sentença. Na tabela, a ordem é definida pelas variáveis x1, x2, x3, x4 e x5.
+    </para>
+    <para>
+      Claro, esta tabela esta longe de ser completa e Lojban possui regras para que novas palavras sejam criadas, sendo a principal forma de contribuir para a linguagem, tais regras são descritas no livro <quote xml:lang="en">The Complete Lojban Language</quote>, e não serão descritas nesse documento.
+    </para>
+  </section>
+  <section xml:id="section-some-bridi">
+    <title><anchor xml:id="c1s6"/>Sentenças</title>
+    <para>
+      Vamos ler a simples sentença em Lojban. A palavra <valsi>tavla</valsi>, possui como definição:
+    </para>
+    <example xml:id="example-9">
+      <title>
+        <anchor xml:id="c1s6e9"/>
+      </title>
+      <para>
+        x1 fala com x2 sobre x3 na linguagem x4.
+      </para>
+    </example>
+    <para>
+      As letras <letteral>x</letteral> seguidas de um número representam um argumento do predicado em português no lugar indicado. Podemos preencher cada variável em português, sintetizando:
+    </para>
+    <example xml:id="example-10">
+      <title>
+        <anchor xml:id="c1s6e10"/>
+      </title>
+      <para>
+        Pedro fala com Breno sobre química em Lojban.
+      </para>
+    </example>
+    <para>
+      x1 é Pedro, x2 é Breno, x3 é química, e por fim, a linguagem é Lojban.
+    </para>
+    <para>
+      Em Lojban, essa sentença poderia ter a forma:
+    </para>
+    <example role="interlinear-gloss-example" xml:id="example-11">
+      <title>
+        <anchor xml:id="c1s6e11"/>
+      </title>
+      <interlinear-gloss-itemized>
+        <jbo>
+          <sumti glossary="false">x1</sumti>
+          <elidable>cu</elidable>
+          <selbri>tavla</selbri> 
+          <sumti glossary="false">x2</sumti> 
+          <sumti glossary="false">x3</sumti> 
+          <sumti glossary="false">x4</sumti>
+        </jbo>
+      </interlinear-gloss-itemized>
+    </example>
+    <para>
+      A palavra <valsi>cu</valsi> serve como um separador entre um sumti e um selbri, e pode ser omitido, como nas seguintes frases:
+    </para>
+    <example role="interlinear-gloss-example" xml:id="example-12">
+      <title>
+        <anchor xml:id="c1s6e12"/>
+      </title>
+      <interlinear-gloss-itemized>
+        <jbo>
+          <sumti>mi</sumti> 
+          <selbri>tavla</selbri> 
+          <sumti>do</sumti> 
+          <sumti>zo'e</sumti> 
+          <sumti>zo'e</sumti>
+        </jbo>
+        <natlang>Eu falo com você sobre alguma coisa em alguma linguagem.</natlang>
+      </interlinear-gloss-itemized>
+    </example>
+    <example role="interlinear-gloss-example" xml:id="example-13">
+      <title>
+        <anchor xml:id="c1s6e13"/>
+      </title>
+      <interlinear-gloss-itemized>
+        <jbo>
+          <sumti>do</sumti> 
+          <selbri>tavla</selbri>
+          <sumti>mi</sumti> 
+          <sumti>ta</sumti> 
+          <sumti>zo'e</sumti>
+        </jbo>
+        <natlang>Você fala comigo sobre isso em alguma linguagem.</natlang>
+      </interlinear-gloss-itemized>
+    </example>
+    <example role="interlinear-gloss-example" xml:id="example-14">
+      <title>
+        <anchor xml:id="c1s6e14"/>
+      </title>
+      <interlinear-gloss-itemized>
+        <jbo>
+          <sumti>mi</sumti> 
+          <selbri>tavla</selbri> 
+          <sumti>zo'e</sumti> 
+          <sumti>tu</sumti> 
+          <sumti>la lojban</sumti>
+        </jbo>
+        <natlang>Eu falo com alguém sobre aquilo em Lojban.</natlang>
+      </interlinear-gloss-itemized>
+    </example>
+    <para>
+      Quando há ocorrências seguidas de pronomes <valsi>zo'e</valsi> no final da sentença, eles podem ser omitidas. Como nos exemplos <xref linkend="example-12"/> e <xref linkend="example-13"/>:
+    </para>
+    
+    <example role="interlinear-gloss-example" xml:id="example-15">
+      <title>
+        <anchor xml:id="c1s6e15"/>
+      </title>
+      <interlinear-gloss-itemized>
+        <jbo>
+          <sumti>mi</sumti> 
+          <selbri>tavla</selbri> 
+          <sumti>do</sumti>
+        </jbo>
+        <natlang>Eu falo com você (sobre alguma coisa em alguma linguagem).</natlang>
+      </interlinear-gloss-itemized>
+    </example>
+    <example role="interlinear-gloss-example" xml:id="example-16">
+      <title>
+        <anchor xml:id="c1s6e16"/>
+      </title>
+      <interlinear-gloss-itemized>
+        <jbo>
+          <sumti>do</sumti> 
+          <selbri>tavla</selbri> 
+          <sumti>mi</sumti> 
+          <sumti>ta</sumti>
+        </jbo>
+        <natlang>Você fala comigo sobre isso (em alguma linguagem).</natlang>
+      </interlinear-gloss-itemized>
+    </example>
+    <para>
+      Observe que não pode ocorrer elipse no <xref linkend="example-14"/>, pois não termina com <valsi>zo'e</valsi>. 
     </para>
   </section>
 </chapter>
